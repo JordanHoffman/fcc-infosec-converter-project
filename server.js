@@ -1,3 +1,5 @@
+//TAKEAWAYS: forEach and map... Be very careful because it appears that returns and breaks don't work in this functions. So you can use them for searching that involves returning upon a match. You can use the ES6 method for(const [ele] of [collection])
+
 'use strict';
 
 var express     = require('express');
